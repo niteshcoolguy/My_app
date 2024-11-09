@@ -11,7 +11,7 @@ const DataDisplay = () => {
     // const [header,setHeader]=useState("Product List")
 
     const navigate = useNavigate();
-
+    console.log("Nitesh Chutiya")
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch('https://fakestoreapi.com/products');
