@@ -50,7 +50,7 @@ const ProductDetail = () => {
             </div>
 
             {/* Display user data */}
-            <h2 style={styles.h2}>User Information</h2>
+            <h2 style={styles.h2}>Employees Information</h2>
             <div style={styles.userContainer}>
                 {user ? (
                     Array.from({ length: 4 }).map((_, index) => (
